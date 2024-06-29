@@ -1,0 +1,5 @@
+@use 'sass:math';
+@mixin font-size($value: 16) {
+  font-size: ($value) + px; // callback for old browser
+  font-size: math.div($value, 10) + rem !important;
+}

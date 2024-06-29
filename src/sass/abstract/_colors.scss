@@ -1,0 +1,185 @@
+:root {
+  --primary-color: #31576f;
+  --secondary-color: #b09038;
+  --success-color: #00703c;
+  --danger-color: #d4351c;
+  --info-color: #487d93;
+  --light-color: #ebf1f3;
+  --headings-color: #272525;
+  --disabled-bg-color: #e6e6e7;
+  --body-color: #272525;
+  --hint-color: #6d6e70;
+  --link-standard-color: #1d70b8;
+  --link-hover-color: #003078;
+  --link-visited-color: #4c2c92;
+  --link-active-color: #272525;
+  --link-danger-hover-color: #942514;
+  --border-standard-color: #bbbcbf;
+  --border-input-color: #272525;
+  --border-input-focus-color: #1d7afc;
+  --border-input-error-color: #e34935;
+  --border-textbox-color: #52879d;
+  --brand-primary-color: #31576f;
+  --button-primary-hover-color: #254355;
+  --button-secondary-color: #d0d1d3;
+  --button-secondary-hover-color: #a6a8aa;
+  --button-tertiary-color: #d4351c;
+  --button-tertiary-hover-color: #aa1d13;
+  --button-success-color: #00703c;
+  --button-success-hover-color: #274e13;
+  --button-active-focus-color: #ffdd00;
+  --paginator-button-hover-color: #e6e6e7;
+  --button-focus-color: #272727;
+  --alert-primary-color: #0c66e4;
+  --alert-danger-color: #ca3521;
+  --radio-checked-color: #0c66e4;
+  --white-color: #ffffff;
+  --icon-gray-color: #6d6e70;
+  --selected-item-bg-color: #e9f2ff;
+  --hovered-item-bg-color: #e6e6e7;
+  --active-tab-bg-color: #f7f7f7;
+  --active-status-bg-color: #ebf7e6;
+  --active-status-color: #2e844a;
+  --banner-error-bg-color: #ffd2cc;
+  --img-gallery-bg-color: #d9d9d9;
+  --q-alizer-color: #adf178;
+}
+
+/* Text Colors */
+
+.color-primary {
+  color: var(--primary-color);
+}
+
+.color-secondary {
+  color: var(--secondary-color);
+}
+
+.color-success {
+  color: var(--success-color);
+}
+
+.color-danger {
+  color: var(--danger-color);
+}
+
+.color-info {
+  color: var(--info-color);
+}
+
+.alert-color-primary {
+  color: var(--alert-primary-color);
+}
+
+.alert-color-danger {
+  color: var(--alert-danger-color);
+}
+
+/* Background Color */
+
+.bg-light {
+  background-color: var(--light-color);
+}
+
+/* Heading Text Color */
+
+.color-headings {
+  color: var(--headings-color);
+}
+
+/* Body Text Color */
+
+.color-body {
+  color: var(--body-color);
+}
+
+/* Hint Text Color */
+
+.color-hint {
+  color: var(--hint-color);
+}
+
+/* Link Colors */
+
+.color-link-standard {
+  color: var(--link-standard-color);
+}
+
+.color-link-hover {
+  color: var(--link-hover-color);
+}
+
+.color-link-visited {
+  color: var(--link-visited-color);
+}
+
+.color-link-active {
+  color: var(--link-active-color);
+}
+
+.color-link-danger-hover {
+  color: var(--link-danger-hover-color);
+}
+
+/* Border Colors */
+
+.border-standard {
+  border-color: var(--border-standard-color);
+}
+
+.border-input {
+  border-color: var(--border-input-color);
+}
+
+/* Brand Primary Color */
+
+.color-brand-primary {
+  color: var(--brand-primary-color);
+}
+
+/* Button Styles */
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--button-primary-hover-color);
+}
+
+.btn-secondary {
+  background-color: var(--button-secondary-color);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: var(--button-secondary-hover-color);
+}
+
+.btn-tertiary {
+  background-color: var(--button-tertiary-color);
+  color: white;
+}
+
+.btn-tertiary:hover {
+  background-color: var(--button-tertiary-hover-color);
+}
+
+.btn-success {
+  background-color: var(--button-success-color);
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: var(--button-success-hover-color);
+}
+
+.btn-active-focus {
+  outline-color: var(--button-active-focus-color);
+}
+
+.paginator-button-hover-color:hover {
+  color: var(--link-hover-color) !important;
+  background-color: var(--paginator-button-hover-color) !important;
+}

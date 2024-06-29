@@ -1,0 +1,23 @@
+<section class="chart-container">
+    <h2 class="font-size-24 color-info">Birth Rate, Crude (per 1,000 people)</h2>
+    <p class="font-size-16 color-info">
+        These charts shows the birth rate, crude (per 1,000 people) for Switzerland and Egypt from 2000 to 2023.
+    </p>
+
+    <div class="chart-container__rows">
+        <div class="chart-container__wrapper">
+            <p-chart type="bar" [data]="data"></p-chart>
+        </div>
+        <div class="chart-container__wrapper">
+            <p-chart type="line" [data]="data"></p-chart>
+        </div>
+    </div>
+    <div class="chart-container__rows">
+        <div class="chart-container__wrapper">
+            <p-chart type="radar" [data]="data"></p-chart>
+        </div>
+        <div class="chart-container__wrapper">
+            <p-chart type="doughnut" [data]="data"></p-chart>
+        </div>
+    </div>
+</section>
